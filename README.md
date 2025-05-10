@@ -1,4 +1,5 @@
-# arduino-veri-alma
+#     arduino-data-retrieval
+
 Using the ESP32 microcontroller, a system that can remotely control the positions of servo motors has been developed. The system communicates with a C# form application over TCP/IP protocol and updates the motor positions using the incoming data. Furthermore, this data is both visualized and stored in a SQL database. Mssql database was used. A database called arduinoData was created. C# form and arduino are used.
 
 ESP32 mikrodenetleyicisini kullanarak, servo motorların konumlarını uzaktan kontrol edebilen bir sistem geliştirilmiştir. Sistem, TCP/IP protokolü üzerinden bir  C# form uygulaması ile haberleşir ve gelen verileri kullanarak motor pozisyonlarını günceller. Ayrıca, bu veriler hem görselleştirilir hem de bir SQL veritabanına kaydedilir. Mssql veritabanı kullanılmıştır. arduinoVerileri adı altında bir veritabanı oluşturulmuştur. C# form ve arduino kullanılmıştır.
